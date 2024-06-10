@@ -1,0 +1,13 @@
+{
+	"n_targets": 49537,
+	"n_bootstraps": 0,
+	"n_processed": 16476141,
+	"n_pseudoaligned": 9600163,
+	"n_unique": 4724460,
+	"p_pseudoaligned": 58.3,
+	"p_unique": 28.7,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Tue Oct  5 13:48:31 2021",
+	"call": "kallisto quant -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/Macaca_mulatta.Mmul_10.cdna.all.idx -o ENSoutput/SRR10334375 /Volumes/Seagate/Bill/eve/trimmed/SRR10334375_1.trimmed.fastq /Volumes/Seagate/Bill/eve/trimmed/SRR10334375_2.trimmed.fastq"
+}

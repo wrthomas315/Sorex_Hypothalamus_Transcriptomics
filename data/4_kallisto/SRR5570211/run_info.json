@@ -1,0 +1,13 @@
+{
+	"n_targets": 45604,
+	"n_bootstraps": 0,
+	"n_processed": 22742347,
+	"n_pseudoaligned": 4148329,
+	"n_unique": 2072936,
+	"p_pseudoaligned": 18.2,
+	"p_unique": 9.1,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Wed Oct 13 09:22:28 2021",
+	"call": "kallisto quant -l 43 -s .00000000001 -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/Papio_anubis.Panu_3.0.cdna.all.idx -o ENSoutput/SRR5570211 --single /Volumes/Seagate/Bill/eve/trimmed/SRR5570211.trimmed.fastq"
+}

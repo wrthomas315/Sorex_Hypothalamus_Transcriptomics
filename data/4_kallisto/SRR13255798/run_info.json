@@ -1,0 +1,13 @@
+{
+	"n_targets": 28140,
+	"n_bootstraps": 0,
+	"n_processed": 32371397,
+	"n_pseudoaligned": 21958306,
+	"n_unique": 15943600,
+	"p_pseudoaligned": 67.8,
+	"p_unique": 49.3,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Tue Oct 26 22:04:09 2021",
+	"call": "kallisto quant -l 100 -s .00000000001 -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/hypot_extras/Microtus_ochrogaster.MicOch1.0.cdna.all.idx -o ENSoutput/SRR13255798 --single /Volumes/Seagate/Bill/eve/trimmed/SRR13255798.trimmed.fastq"
+}

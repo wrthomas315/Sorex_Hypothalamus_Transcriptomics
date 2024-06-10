@@ -1,0 +1,16 @@
+Bos_taurus.ARS-UCD1.2.104.gtf.gz
+Capra_hircus.ARS1.104.gtf.gz
+Cavia_porcellus.Cavpor3.0.104.gtf.gz
+Fukomys_damarensis.DMR_v1.0.104.gtf.gz
+Heterocephalus_glaber_male.HetGla_1.0.104.gtf.gz
+Homo_sapiens.GRCh38.104.gtf.gz
+Ictidomys_tridecemlineatus.SpeTri2.0.104.gtf.gz
+Macaca_mulatta.Mmul_10.104.gtf.gz
+Microtus_ochrogaster.MicOch1.0.104.gtf.gz
+Mus_musculus.GRCm39.104.gtf.gz
+Ovis_aries_rambouillet.Oar_rambouillet_v1.0.104.gtf.gz
+Pan_troglodytes.Pan_tro_3.0.104.gtf.gz
+Papio_anubis.Panu_3.0.104.gtf.gz
+Peromyscus_maniculatus_bairdii.HU_Pman_2.1.104.gtf.gz
+Rattus_norvegicus.Rnor_6.0.104.gtf.gz
+Sus_scrofa.Sscrofa11.1.104.gtf.gz

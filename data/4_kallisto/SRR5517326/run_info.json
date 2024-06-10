@@ -1,0 +1,13 @@
+{
+	"n_targets": 28658,
+	"n_bootstraps": 0,
+	"n_processed": 23332224,
+	"n_pseudoaligned": 12459519,
+	"n_unique": 9015844,
+	"p_pseudoaligned": 53.4,
+	"p_unique": 38.6,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Tue Oct 26 10:07:39 2021",
+	"call": "kallisto quant -l 100 -s .00000000001 -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/hypot_extras/Heterocephalus_glaber_male.HetGla_1.0.cdna.all.idx -o ENSoutput/SRR5517326 --single /Volumes/Seagate/Bill/eve/trimmed/SRR5517326.trimmed.fastq"
+}

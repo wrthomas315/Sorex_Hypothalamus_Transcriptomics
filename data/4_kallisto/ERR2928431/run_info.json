@@ -1,0 +1,13 @@
+{
+	"n_targets": 23670,
+	"n_bootstraps": 0,
+	"n_processed": 31537614,
+	"n_pseudoaligned": 14604900,
+	"n_unique": 10635069,
+	"p_pseudoaligned": 46.3,
+	"p_unique": 33.7,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Mon Oct  4 21:02:55 2021",
+	"call": "kallisto quant -l 50 -s .00000000001 -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/hippoc_extras/Fukomys_damarensis.DMR_v1.0.cdna.all.idx -o ENSoutput/ERR2928431 --single /Volumes/Seagate/Bill/eve/trimmed/ERR2928431.trimmed.fastq"
+}

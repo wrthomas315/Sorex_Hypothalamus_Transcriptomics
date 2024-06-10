@@ -1,0 +1,15 @@
+Term	Count	PValue
+Fluid shear stress and atherosclerosis	11	5.70E-04
+Relaxin signaling pathway	10	0.001333944
+Neuroactive ligand-receptor interaction	18	0.00143166
+HIF-1 signaling pathway	9	0.00178414
+PI3K-Akt signaling pathway	17	0.00253298
+JAK-STAT signaling pathway	10	0.007221702
+ECM-receptor interaction	7	0.009416009
+Small cell lung cancer	7	0.011587506
+"Growth hormone synthesis, secretion and action"	8	0.011796935
+Pathways in cancer	20	0.012805111
+Central carbon metabolism in cancer	6	0.014405816
+Prolactin signaling pathway	6	0.014405816
+cAMP signaling pathway	11	0.015823218
+AMPK signaling pathway	7	0.038574358

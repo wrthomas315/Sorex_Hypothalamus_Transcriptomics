@@ -1,0 +1,13 @@
+{
+	"n_targets": 35428,
+	"n_bootstraps": 0,
+	"n_processed": 47042493,
+	"n_pseudoaligned": 17607143,
+	"n_unique": 10478445,
+	"p_pseudoaligned": 37.4,
+	"p_unique": 22.3,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Fri Oct 22 15:47:46 2021",
+	"call": "kallisto quant -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/hypot_extras/Ovis_aries_rambouillet.Oar_rambouillet_v1.0.cdna.all.idx -o ENSoutput/SRR10767128 /Volumes/Seagate/Bill/eve/trimmed/SRR10767128_1.trimmed.fastq /Volumes/Seagate/Bill/eve/trimmed/SRR10767128_2.trimmed.fastq"
+}

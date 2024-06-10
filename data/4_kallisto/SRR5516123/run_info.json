@@ -1,0 +1,13 @@
+{
+	"n_targets": 25824,
+	"n_bootstraps": 0,
+	"n_processed": 26628833,
+	"n_pseudoaligned": 17165318,
+	"n_unique": 12189837,
+	"p_pseudoaligned": 64.5,
+	"p_unique": 45.8,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Tue Oct 12 15:03:09 2021",
+	"call": "kallisto quant -l 100 -s .00000000001 -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/Cavia_porcellus.Cavpor3.0.cdna.all.idx -o ENSoutput/SRR5516123 --single /Volumes/Seagate/Bill/eve/trimmed/SRR5516123.trimmed.fastq"
+}

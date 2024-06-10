@@ -1,0 +1,13 @@
+{
+	"n_targets": 51485,
+	"n_bootstraps": 0,
+	"n_processed": 57542300,
+	"n_pseudoaligned": 27394208,
+	"n_unique": 10501078,
+	"p_pseudoaligned": 47.6,
+	"p_unique": 18.2,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Thu Oct 21 17:27:55 2021",
+	"call": "kallisto quant -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/Sus_scrofa.Sscrofa11.1.cdna.all.idx -o ENSoutput/SRR11526976 /Volumes/Seagate/Bill/eve/trimmed/SRR11526976_1.trimmed.fastq /Volumes/Seagate/Bill/eve/trimmed/SRR11526976_2.trimmed.fastq"
+}

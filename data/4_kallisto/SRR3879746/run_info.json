@@ -1,0 +1,13 @@
+{
+	"n_targets": 34136,
+	"n_bootstraps": 0,
+	"n_processed": 55216123,
+	"n_pseudoaligned": 18582344,
+	"n_unique": 12159486,
+	"p_pseudoaligned": 33.7,
+	"p_unique": 22.0,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Mon Oct 25 12:47:04 2021",
+	"call": "kallisto quant -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/hypot_extras/Capra_hircus.ARS1.cdna.all.idx -o ENSoutput/SRR3879746 /Volumes/Seagate/Bill/eve/trimmed/SRR3879746_1.trimmed.fastq /Volumes/Seagate/Bill/eve/trimmed/SRR3879746_2.trimmed.fastq"
+}

@@ -1,0 +1,13 @@
+{
+	"n_targets": 28891,
+	"n_bootstraps": 0,
+	"n_processed": 22376567,
+	"n_pseudoaligned": 9282021,
+	"n_unique": 7035032,
+	"p_pseudoaligned": 41.5,
+	"p_unique": 31.4,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Mon Oct 25 19:15:35 2021",
+	"call": "kallisto quant -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/hypot_extras/Peromyscus_maniculatus_bairdii.HU_Pman_2.1.cdna.all.idx -o ENSoutput/SRR5279358 /Volumes/Seagate/Bill/eve/trimmed/SRR5279358_1.trimmed.fastq /Volumes/Seagate/Bill/eve/trimmed/SRR5279358_2.trimmed.fastq"
+}

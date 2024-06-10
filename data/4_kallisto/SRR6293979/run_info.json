@@ -1,0 +1,13 @@
+{
+	"n_targets": 26267,
+	"n_bootstraps": 0,
+	"n_processed": 24754360,
+	"n_pseudoaligned": 16974357,
+	"n_unique": 12153823,
+	"p_pseudoaligned": 68.6,
+	"p_unique": 49.1,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Sat Oct 23 15:51:48 2021",
+	"call": "kallisto quant -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/hypot_extras/Ictidomys_tridecemlineatus.SpeTri2.0.cdna.all.idx -o ENSoutput/SRR6293979 /Volumes/Seagate/Bill/eve/trimmed/SRR6293979_1.trimmed.fastq /Volumes/Seagate/Bill/eve/trimmed/SRR6293979_2.trimmed.fastq"
+}

@@ -1,0 +1,13 @@
+{
+	"n_targets": 117486,
+	"n_bootstraps": 0,
+	"n_processed": 64753902,
+	"n_pseudoaligned": 29899810,
+	"n_unique": 10394476,
+	"p_pseudoaligned": 46.2,
+	"p_unique": 16.1,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Tue Oct 26 13:41:58 2021",
+	"call": "kallisto quant -l 100 -s .00000000001 -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/Mus_musculus.GRCm39.cdna.all.idx -o ENSoutput/ERR1709726 --single /Volumes/Seagate/Bill/eve/trimmed/ERR1709726.trimmed.fastq"
+}

@@ -1,0 +1,29 @@
+Term	Count	PValue
+hsa05418:Fluid shear stress and atherosclerosis	11	5.699930757411173E-4
+hsa04926:Relaxin signaling pathway	10	0.0013339440564713607
+hsa04080:Neuroactive ligand-receptor interaction	18	0.001431660379962823
+hsa04066:HIF-1 signaling pathway	9	0.0017841403331711337
+hsa04151:PI3K-Akt signaling pathway	17	0.0025329804243187514
+hsa04630:JAK-STAT signaling pathway	10	0.007221701576135349
+hsa04512:ECM-receptor interaction	7	0.00941600865818831
+hsa05222:Small cell lung cancer	7	0.011587506147668824
+hsa04935:Growth hormone synthesis, secretion and action	8	0.011796935396754351
+hsa05200:Pathways in cancer	20	0.01280511149281257
+hsa05230:Central carbon metabolism in cancer	6	0.014405815572356817
+hsa04917:Prolactin signaling pathway	6	0.014405815572356817
+hsa04024:cAMP signaling pathway	11	0.01582321775468034
+hsa04152:AMPK signaling pathway	7	0.038574358119173015
+hsa04068:FoxO signaling pathway	7	0.05320037931922031
+hsa04920:Adipocytokine signaling pathway	5	0.0534782124533003
+hsa04933:AGE-RAGE signaling pathway in diabetic complications	6	0.05514231982540016
+hsa04210:Apoptosis	7	0.06162579006458185
+hsa04371:Apelin signaling pathway	7	0.06704084850035624
+hsa04930:Type II diabetes mellitus	4	0.06845738441676094
+hsa05220:Chronic myeloid leukemia	5	0.07121730369695214
+hsa05170:Human immunodeficiency virus 1 infection	9	0.07130519531013901
+hsa04931:Insulin resistance	6	0.07183133480351411
+hsa05412:Arrhythmogenic right ventricular cardiomyopathy	5	0.07396989672369161
+hsa00220:Arginine biosynthesis	3	0.07445510158919437
+hsa04725:Cholinergic synapse	6	0.08352339115987997
+hsa04670:Leukocyte transendothelial migration	6	0.08597620631788139
+hsa05166:Human T-cell leukemia virus 1 infection	9	0.08766167324764465

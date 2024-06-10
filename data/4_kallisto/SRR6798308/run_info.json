@@ -1,0 +1,13 @@
+{
+	"n_targets": 38030,
+	"n_bootstraps": 0,
+	"n_processed": 32781408,
+	"n_pseudoaligned": 24896856,
+	"n_unique": 16207959,
+	"p_pseudoaligned": 75.9,
+	"p_unique": 49.4,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Tue Oct 26 17:16:40 2021",
+	"call": "kallisto quant -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/Bos_taurus.ARS-UCD1.2.cdna.all.idx -o ENSoutput/SRR6798308 /Volumes/Seagate/Bill/eve/trimmed/trimmedSRR6798308_1.trimmed.fastq /Volumes/Seagate/Bill/eve/trimmed/trimmedSRR6798308_2.trimmed.fastq"
+}

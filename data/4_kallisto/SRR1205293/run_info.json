@@ -1,0 +1,13 @@
+{
+	"n_targets": 31715,
+	"n_bootstraps": 0,
+	"n_processed": 14267285,
+	"n_pseudoaligned": 10454779,
+	"n_unique": 7862977,
+	"p_pseudoaligned": 73.3,
+	"p_unique": 55.1,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Thu Oct 28 12:35:15 2021",
+	"call": "kallisto quant -i /Volumes/Seagate/Bill/eve/ENSEMBL_rna/Rattus_norvegicus.Rnor_6.0.cdna.all.idx -o ENSoutput/SRR1205293 /Volumes/Seagate/Bill/eve/trimmed/SRR1205293_1.trimmed.fastq /Volumes/Seagate/Bill/eve/trimmed/SRR1205293_2.trimmed.fastq"
+}

@@ -15,8 +15,7 @@ RNA-seq analyses require alignment to a reference and quantification of reads. T
 #get refs
 bash 0_reference_download.sh
 #get SRA
-bash
-1_SRA_download.sh
+bash 1_SRA_download.sh
 ```
 
 ### Quality control, filtering, trimming
@@ -101,8 +100,8 @@ bash 16_ConvertOuput_dropout.sh -f  -s 15 -g genelist -o result
 
 ### Additionally, diversity and drop out need to have there outputs converted to get beta values, and to annotate those that are significant. 
 ```
-17_ConvertBeta_div.sh
-18_ConvertBeta_dropout.sh
+bash 17_ConvertBeta_div.sh
+bash 18_ConvertBeta_dropout.sh
 ```
 
 ### These should be run with the final R script where we determine significance and beta values, which then annotates them to make datasets comparable between differential expression and EVE
@@ -112,9 +111,9 @@ bash 19_nameconvertSig.sh
 #branch all genes
 bash 20_nameconvertTot.sh
 #diversity Low Beta
-21_divBetaSigLow.sh 
+bash 21_divBetaSigLow.sh 
 #diversoty High Beta
-22_divBetaSigHigh.sh 
+bash 22_divBetaSigHigh.sh 
 #dropout (only need diversifying, not plasticity)
 bash 23_dropBetaSigDiv.sh
 ```
@@ -126,9 +125,15 @@ bash 23_dropBetaSigDiv.sh
 
 ### Now compare results in a final R script (Note: run in tandem with above DESeq/name converters in Rstudio)
 ```
-25_eve
+25_eve.R
 ```
 
+### Statistical analyses and visualization for cell viability.
+```
+R 26_CV_t_test.R
+```
+
+
 ### DAVID Geneset Enrichment
-#### DAVID was done online at the below link. In a perfect world these should be scripted, however, due to conflicts in packages and Rversions they were not.
-#### https://david.ncifcrf.gov/summary.jsp
+DAVID was done online at the below link. In a perfect world these should be scripted, however, due to conflicts in packages and Rversions they were not.
+https://david.ncifcrf.gov/summary.jsp

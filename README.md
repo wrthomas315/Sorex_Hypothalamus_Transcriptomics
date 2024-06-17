@@ -26,56 +26,55 @@ bash 2_fastp.sh
 ```
 
 ### Mapping and quantification
-####Reads that have went through quality control are then mapped to the reference transcriptome and quantified using pseudoalignment. This method does not directly map reads to the genome, but can infer counts despite similarities between different coding regions (https://pachterlab.github.io/kallisto/about).
+Reads that have went through quality control are then mapped to the reference transcriptome and quantified using pseudoalignment. This method does not directly map reads to the genome, but can infer counts despite similarities between different coding regions (https://pachterlab.github.io/kallisto/about).
 
 ```
 bash 3_kallisto.sh
 ```
 
-### Now need to convert kallisto abundance outputs to gene counts with transcripts to gene functions in R. (Note: Typically run this in R studio)
+Now need to convert kallisto abundance outputs to gene counts with transcripts to gene functions in R. (Note: Typically run this in R studio)
 ```
 R 4_transcriptgene.R
 ```
 
-### RNAseq data is almost ready to be used. Now we need to find orthologous genes that are 1:1. Then we need to pull these out and put into a file that is useable for our EVE analyses. (Note: this will create the orthofinder result folder in ../0_refs)
-#### Note: Probably nest to run this one line by line. Need to change path to your installation of orthofinder.
+### Orthology
+RNAseq data is almost ready to be used. Now we need to find orthologous genes that are 1:1. Then we need to pull these out and put into a file that is useable for our EVE analyses. (Note: this will create the orthofinder result folder in ../0_refs)
+Note: Probably nest to run this one line by line. Need to change path to your installation of orthofinder.
 ```
 bash 5_orthofinder.sh
 ```
 
 ### Generate keys
-#### Note: Need to run this one for each species, not automated. Something I can fix in the future.
+Note: Need to run this one for each species, not automated. Something I can fix in the future.
 ```
 6_keyGenerator.sh
 ```
 
-### Use these keys to change ENS count files to orthologs
-#### Note: Need to run this one for each species, not automated. Something I can fix in the future.
+Use these keys to change ENS count files to orthologs
+Note: Need to run this one for each species, not automated. Something I can fix in the future.
 ```
 7_ens2ortho.sh
 ```
 
-### And then combine into one file needed for EVE analyses
-#### Note: Need to run this one for each species, not automated. Something I can fix in the future.
+And then combine into one file needed for EVE analyses
+Note: Need to run this one for each species, not automated. Something I can fix in the future.
 ```
 8_EVEexpressionGen.sh
 ```
 
-
-### And then can check to see how normalization through count distributions (Note: Here it is ran with papio, which is when we determined to remove it and go back to orthofinder; Typically run this in R studio)
+And then can check to see how normalization through count distributions (Note: Here it is ran with papio, which is when we determined to remove it and go back to orthofinder; Typically run this in R studio)
 ```
 R 9_tpmCheck.R
 ```
 
-
-### The other two inputs for EVE analyses are tree and individual files. Note, you  will need to create multiple of these for the dropout analysis to make sure that shrews were infer to be selectively upregulated in the shrew hypothalamus isn't doing this due to pervasive selection
-#### Note: When species not available use closest relative in genus; need to download etetool kit to manipulate trees
+The other two inputs for EVE analyses are tree and individual files. Note, you  will need to create multiple of these for the dropout analysis to make sure that shrews were infer to be selectively upregulated in the shrew hypothalamus isn't doing this due to pervasive selection
+Note: When species not available use closest relative in genus; need to download etetool kit to manipulate trees
 ```
 python 10_treeprune.py
 ```
 
 ### Analyses
-#### Note need to install EVE
+Note need to install EVE
 ### Branch shift
 ```
 bash 11_EVE_branchshift.sh
@@ -118,7 +117,8 @@ bash 22_divBetaSigHigh.sh
 bash 23_dropBetaSigDiv.sh
 ```
 
-###Seasonal transcriptomics (produces both outputs for DESeq2 and TCSeq) (Note: run in tandem with below eve R analysis/name converters in Rstudio)
+### Seasonal transcriptomics (produces both outputs for DESeq2 and TCSeq) 
+(Note: run in tandem with below eve R analysis/name converters in Rstudio)
 ```
 24_Dehnels_Hypothalamus.R
 ```
